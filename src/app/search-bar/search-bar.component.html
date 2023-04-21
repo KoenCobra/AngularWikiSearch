@@ -1,5 +1,7 @@
+<div class="box">
 <form (ngSubmit)="onFormSubmit($event)">
-  <input [(ngModel)]="term" [ngModelOptions]="{standalone: true}" >
+  <input placeholder="enter search term" class="input" [(ngModel)]="term" [ngModelOptions]="{standalone: true}" >
 </form>
+</div>
 
 
