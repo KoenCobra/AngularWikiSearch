@@ -3,7 +3,8 @@ import {Component, Input} from '@angular/core';
 export interface page {
   title: string,
   wordcount: number,
-  snippet: string
+  snippet: string,
+  pageid:string
 }
 @Component({
   selector: 'app-page-list',
